@@ -7,7 +7,3 @@ struct ListNode {
     ListNode(int x, ListNode *next) : val(x), next(next) {}
     ListNode(int x) : val(x), next(nullptr) {}
 };
-
-int random(int min, int max) {
-    return min % (max - min + 1);
-}
